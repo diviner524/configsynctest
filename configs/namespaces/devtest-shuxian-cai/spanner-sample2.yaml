@@ -1,9 +1,9 @@
   apiVersion: spanner.cnrm.cloud.google.com/v1beta1
   kind: spannerinstance
   metadata:
-    name: mytest3
+    name: createdbycsync2
     namespace: devtest-shuxian-cai
   spec:
     config: regional-us-west1
-    displayName: Lowercase CSync
+    displayName: Created By Config Sync2
     numNodes: 1
