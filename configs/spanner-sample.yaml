@@ -1,0 +1,9 @@
+  apiVersion: spanner.cnrm.cloud.google.com/v1beta1
+  kind: spannerinstance
+  metadata:
+    name: createdbycsync
+    namespace: devtest-shuxian-cai
+  spec:
+    config: regional-us-west1
+    displayName: Created By Config Sync
+    numNodes: 1
