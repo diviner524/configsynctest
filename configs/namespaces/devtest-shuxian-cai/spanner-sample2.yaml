@@ -2,6 +2,7 @@
   kind: spannerinstance
   metadata:
     name: mytest3
+    namespace: devtest-shuxian-cai
   spec:
     config: regional-us-west1
     displayName: Lowercase CSync
